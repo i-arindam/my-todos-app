@@ -98,11 +98,11 @@ GEM
     digest (3.1.0)
     erubi (1.10.0)
     erubis (2.7.0)
-    factory_girl (4.9.0)
-      activesupport (>= 3.0.0)
-    factory_girl_rails (4.9.0)
-      factory_girl (~> 4.9.0)
-      railties (>= 3.0.0)
+    factory_bot (6.2.1)
+      activesupport (>= 5.0.0)
+    factory_bot_rails (6.2.0)
+      factory_bot (~> 6.2.0)
+      railties (>= 5.0.0)
     globalid (1.0.0)
       activesupport (>= 5.0)
     haml (5.2.2)
@@ -236,6 +236,8 @@ GEM
     stimulus-rails (1.0.4)
       railties (>= 6.0.0)
     strscan (3.0.3)
+    tailwindcss-rails (2.0.8)
+      railties (>= 6.0.0)
     temple (0.8.2)
     thor (1.2.1)
     tilt (2.0.10)
@@ -272,7 +274,7 @@ DEPENDENCIES
   capybara
   database_cleaner
   debug
-  factory_girl_rails
+  factory_bot_rails
   haml-rails (~> 2.0)
   importmap-rails
   jbuilder
@@ -284,6 +286,7 @@ DEPENDENCIES
   selenium-webdriver
   sprockets-rails
   stimulus-rails
+  tailwindcss-rails (~> 2.0)
   turbo-rails
   tzinfo-data
   web-console
